@@ -102,3 +102,53 @@ footer {
     padding: 20px 0;
     font-size: 0.8em;
 }
+
+@media (max-width: 768px) {
+    header {
+        height: 200px;
+    }
+    header h1 {
+        font-size: 2em;
+        top: 30%;
+    }
+    header h2 {
+        font-size: 1.2em;
+        top: 50%;
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .nav-links {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .nav-links a {
+        display: block;
+        margin: 5px 0;
+    }
+    .feature-section, .follow-up-section {
+        flex-direction: column;
+        padding: 20px 5%;
+    }
+    .feature-image {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .feature-text, .follow-up-text {
+        padding: 0;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+    .content > div {
+        padding: 10px;
+    }
+    .follow-up-section iframe {
+        height: 300px;
+    }
+}
+
